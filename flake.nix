@@ -37,7 +37,7 @@
           pname = "goda-ks";
           inherit version;
           src = ./.;
-          vendorHash = "sha256-0NimNWQtqcRUL98oK88noMhraPltAgcZsynce/WN4sM=";
+          vendorHash = "sha256-bBQQBTd259WBZOj+gCTFhSDwRicrXa97F9DcYIezx0Q=";
           subPackages = [ "." ];
           doCheck = false;
           postInstall = ''
