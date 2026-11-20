@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     goda-vim = {
-      url = "github:Shougo/goda.vim/v0.8.0";
+      url = "github:Shougo/goda.vim/v0.9.0";
       flake = false;
     };
   };
@@ -37,7 +37,7 @@
           pname = "goda-ks";
           inherit version;
           src = ./.;
-          vendorHash = "sha256-0NimNWQtqcRUL98oK88noMhraPltAgcZsynce/WN4sM=";
+          vendorHash = "sha256-bBQQBTd259WBZOj+gCTFhSDwRicrXa97F9DcYIezx0Q=";
           subPackages = [ "." ];
           doCheck = false;
           postInstall = ''
