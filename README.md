@@ -4,6 +4,9 @@ Search Japanese text in Vim and Neovim by typing romaji.
 
 goda-ks.vim is a port of [kensaku.vim](https://github.com/lambdalisue/kensaku.vim) from [denops.vim](https://github.com/vim-denops/denops.vim) to [goda.vim](https://github.com/Shougo/goda.vim). It defines the same `kensaku#query()`, `kensaku#query_async()` and `kensaku#set_roman_table()`, and needs no Deno. [kensaku-search.vim](https://github.com/lambdalisue/kensaku-search.vim) works with it unchanged.
 
+> [!WARNING]
+> This project is under active development and is not yet stable. The API may change without notice.
+
 ## Features
 
 - Works in Vim and Neovim
